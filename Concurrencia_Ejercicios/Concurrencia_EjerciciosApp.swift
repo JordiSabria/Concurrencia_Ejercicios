@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct Concurrencia_EjerciciosApp: App {
+    @State var vm: PostsVM = PostsVM()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .alert("App Alert",
+                       isPresented: $vm.showAlert) {
+                } message: {
+                    Text(vm.errorMsg)
+                }
         }
     }
 }

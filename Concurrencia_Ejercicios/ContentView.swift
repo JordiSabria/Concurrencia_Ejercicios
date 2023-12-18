@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(PostsVM.self) var vm
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(alignment: .leading) {
+            ForEach(vm.posts){post in
+                Text("- " + post.title.rendered)
+            }
         }
         .padding()
     }
@@ -21,4 +22,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environment(PostsVM())
 }
