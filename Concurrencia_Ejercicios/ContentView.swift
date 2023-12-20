@@ -28,6 +28,16 @@ struct ContentView: View {
                     .tabItem {
                         Label("Ejercicio3", systemImage: "list.bullet")
                     }
+                Ejercicio4View()
+                    .environment(vm)
+                    .tabItem {
+                        Label("Ejercicio4", systemImage: "list.bullet")
+                    }
+                Ejercicio5View()
+                    .environment(vm)
+                    .tabItem {
+                        Label("Ejercicio5", systemImage: "list.bullet")
+                    }
             }
         }
     }

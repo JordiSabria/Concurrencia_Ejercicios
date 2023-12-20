@@ -11,7 +11,8 @@ import SwiftUI
 final class PostsVM {
     let interactor: DataInteractor
     var posts: [Posts] = []
-    var arrayPostImagenes: [(Int,UIImage?)] = []
+    var arrayPostImagenes: [(Int,UIImage?)] = [] // Para ejercicio3
+    var imagenAuthor: UIImage? = nil // Para ejercicio4
     
     var errorMsg = ""
     var showAlert = false
@@ -102,8 +103,16 @@ final class PostsVM {
                 }
             }
         }
-        
-        
+    }
+    // Ejercicio4
+    func getImageAuthor(urlImagen: URL){
+        imagenAuthor = nil
+        Task{
+            let imagen = try await interactor.getImage(url: urlImagen)
+            await MainActor.run{
+                self.imagenAuthor = imagen
+            }
+        }
     }
     func getDataPosts() async throws{
         // Hacemos una llamada asyncrona para recureprar todos los pots

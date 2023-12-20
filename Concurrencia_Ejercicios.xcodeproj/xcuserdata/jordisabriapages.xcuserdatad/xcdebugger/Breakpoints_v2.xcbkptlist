@@ -146,5 +146,178 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7875EED-C331-4481-8B6B-CF63F3A22F97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Concurrencia_Ejercicios/Ejercicio4View.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C7875EED-C331-4481-8B6B-CF63F3A22F97 - 82c813ebc2c7b96c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Optional&lt;SwiftUI.Image&gt; in Concurrencia_Ejercicios.Ejercicio4View.body.getter : some"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/Ejercicio4View.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "C7875EED-C331-4481-8B6B-CF63F3A22F97 - 82c813ebc2c7b96c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Optional&lt;SwiftUI.Image&gt; in Concurrencia_Ejercicios.Ejercicio4View.body.getter : some"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/Ejercicio4View.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "474C5A1E-CC33-4094-BD20-D77BAFCC3285"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Concurrencia_Ejercicios/PostsVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "getImageAuthor(urlImagen:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B1EBFCB-B3E9-4A3E-8EEB-2531CCC17E34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Concurrencia_Ejercicios/PostsVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "getImageAuthor(urlImagen:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B1EBFCB-B3E9-4A3E-8EEB-2531CCC17E34 - 38eb24f02c247fd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Concurrencia_Ejercicios.PostsVM.getImageAuthor(urlImagen: Foundation.URL) -&gt; ()"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/PostsVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "4B1EBFCB-B3E9-4A3E-8EEB-2531CCC17E34 - 4e5e75a2cc89d73b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async throws -&gt; () in Concurrencia_Ejercicios.PostsVM.getImageAuthor(urlImagen: Foundation.URL) -&gt; ()"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/PostsVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "4B1EBFCB-B3E9-4A3E-8EEB-2531CCC17E34 - 97ca4674ddab214"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Concurrencia_Ejercicios.PostsVM.getImageAuthor(urlImagen: Foundation.URL) -&gt; ()"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/PostsVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "4B1EBFCB-B3E9-4A3E-8EEB-2531CCC17E34 - c760658d5f5814b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Concurrencia_Ejercicios.PostsVM.getImageAuthor(urlImagen: Foundation.URL) -&gt; ()"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/PostsVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "4B1EBFCB-B3E9-4A3E-8EEB-2531CCC17E34 - c760658d5f5814b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Concurrencia_Ejercicios.PostsVM.getImageAuthor(urlImagen: Foundation.URL) -&gt; ()"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/PostsVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F06F27F-AB5C-4B8C-87C3-F530C08195B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Concurrencia_Ejercicios/Ejercicio4View.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
