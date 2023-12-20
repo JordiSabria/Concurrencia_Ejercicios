@@ -11,12 +11,25 @@ struct ContentView: View {
     @Environment(PostsVM.self) var vm
     
     var body: some View {
-        VStack(alignment: .leading) {
-            ForEach(vm.posts){post in
-                Text("- " + post.title.rendered)
+        TabView {
+            Group{
+                Ejercicio1View()
+                    .environment(vm)
+                    .tabItem {
+                        Label("Ejercicio1", systemImage: "list.bullet")
+                    }
+                Ejercicio2View()
+                    .environment(vm)
+                    .tabItem {
+                        Label("Ejercicio2", systemImage: "list.bullet")
+                    }
+                Ejercicio3View()
+                    .environment(vm)
+                    .tabItem {
+                        Label("Ejercicio3", systemImage: "list.bullet")
+                    }
             }
         }
-        .padding()
     }
 }
 
@@ -24,3 +37,4 @@ struct ContentView: View {
     ContentView()
         .environment(PostsVM())
 }
+

@@ -5,14 +5,17 @@
 //  Created by Jordi Sabrià Pagès on 18/12/23.
 //
 
-import Foundation
+import SwiftUI
 
-struct Posts:Codable, Identifiable {
+struct Posts: Identifiable {
     let id:Int
     let title:String
     let excerpt:String
-    let authors:[URL]
-    let wpfeaturedmedia:[URL]
+    let authorsURL:[URL]
+    var authors:[Author]
+    let wpfeaturedmediaURL:[URL]
+    var wpfeaturedmedia:[Media]
+    var imagenPost: UIImage?
 }
 struct Author:Codable, Identifiable {
     let id:Int
@@ -21,5 +24,5 @@ struct Author:Codable, Identifiable {
 }
 struct Media:Codable, Identifiable {
     let id:Int
-    let guid:String
+    let guid:URL
 }

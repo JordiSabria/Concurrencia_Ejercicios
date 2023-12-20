@@ -14,6 +14,7 @@ struct Concurrencia_EjerciciosApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(vm)
                 .alert("App Alert",
                        isPresented: $vm.showAlert) {
                 } message: {

@@ -33,8 +33,11 @@ extension DTOPosts{
             id: id,
             title: title.rendered,
             excerpt: excerpt.rendered,
-            authors: _links.author.map(\.href),
-            wpfeaturedmedia: _links.wpfeaturedmedia.map(\.href))
+            authorsURL: _links.author.map(\.href),
+            authors: [],
+            wpfeaturedmediaURL: _links.wpfeaturedmedia.map(\.href),
+            wpfeaturedmedia: [],
+            imagenPost: nil)
     }
 }
 struct DTOAuthor:Codable, Identifiable {
@@ -48,12 +51,20 @@ struct DTOAuthor:Codable, Identifiable {
     }
     let avatar_urls:AvatarURLS
 }
-// haig de fer el extension to presentation
+extension DTOAuthor{
+    var toPresentation: Author{
+        Author(id: id, name: name, avatar_urls: avatar_urls._96)
+    }
+}
 struct DTOMedia:Codable, Identifiable {
     let id:Int
     struct Rendered:Codable {
-        let rendered:String
+        let rendered:URL
     }
     let guid:Rendered
 }
-// haig de fer el extension to presentation
+extension DTOMedia{
+    var toPresentation: Media{
+        Media(id: id, guid: guid.rendered)
+    }
+}

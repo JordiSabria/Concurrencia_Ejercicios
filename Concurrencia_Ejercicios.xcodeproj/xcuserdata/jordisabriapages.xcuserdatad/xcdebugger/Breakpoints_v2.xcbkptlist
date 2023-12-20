@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8A95ADD8-490F-4F7A-A5E8-9B9CCCB0404D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A77AD4D8-2C35-4D2C-B614-76D75FC6B097"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Concurrencia_Ejercicios/Model.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "toPresentation"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F81A24AD-631B-4EE3-92CE-FEDA2479326C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Concurrencia_Ejercicios/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getPosts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F81A24AD-631B-4EE3-92CE-FEDA2479326C - edbd9d51c22b7207"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Concurrencia_Ejercicios.Network.getPosts() async throws -&gt; Swift.Array&lt;Concurrencia_Ejercicios.Posts&gt;"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "F81A24AD-631B-4EE3-92CE-FEDA2479326C - 9b1e7d074193ba10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Concurrencia_Ejercicios.Network.getPosts() async throws -&gt; Swift.Array&lt;Concurrencia_Ejercicios.Posts&gt;"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "F81A24AD-631B-4EE3-92CE-FEDA2479326C - a5ce25f9f1907605"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Concurrencia_Ejercicios.Network.getPosts() async throws -&gt; Swift.Array&lt;Concurrencia_Ejercicios.Posts&gt;"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "F81A24AD-631B-4EE3-92CE-FEDA2479326C - d9e9f9ad98ad0804"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Concurrencia_Ejercicios.Network.getPosts() async throws -&gt; Swift.Array&lt;Concurrencia_Ejercicios.Posts&gt;"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F4923F9-91BD-4622-AF74-5C6D7E7EA80F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Concurrencia_Ejercicios/Ejercicio1View.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3F4923F9-91BD-4622-AF74-5C6D7E7EA80F - cf96d2dca240d3f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Concurrencia_Ejercicios.Posts) -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;Concurrencia_Ejercicios.Author&gt;, Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Concurrencia_Ejercicios.Posts&gt;, Swift.Int, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;Concurrencia_Ejercicios.Author&gt;, Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;&gt; in Concurrencia_Ejercicios.Ejercicio1View.body.getter : some"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/Ejercicio1View.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "3F4923F9-91BD-4622-AF74-5C6D7E7EA80F - 807eba495f684ddc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;Concurrencia_Ejercicios.Author&gt;, Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 (Concurrencia_Ejercicios.Posts) -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;Concurrencia_Ejercicios.Author&gt;, Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Concurrencia_Ejercicios.Posts&gt;, Swift.Int, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;Concurrencia_Ejercicios.Author&gt;, Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;&gt; in Concurrencia_Ejercicios.Ejercicio1View.body.getter : some"
+                  moduleName = "Concurrencia_Ejercicios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordisabriapages/Library/CloudStorage/OneDrive-Personal/Particular/Cursos%20Programacio/Apple%20Coding%20Academy/Swift%20Developer%20Program%202023/Mo%CC%81dulo%203%20-%20Async%20Await/Ejercicios/Concurrencia_Ejercicios/Concurrencia_Ejercicios/Ejercicio1View.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
